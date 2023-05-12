@@ -6,7 +6,7 @@
     display: flex;
   
     align-items: center;
-    background-color: blue;
+    background-color: transparent;
     justify-content: space-between;
     margin: 0;
 }
