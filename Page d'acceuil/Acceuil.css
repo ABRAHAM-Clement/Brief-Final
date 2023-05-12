@@ -103,7 +103,19 @@
     top: 0;
     padding: 0.5rem;
 }
-
+.navBar a {
+    text-decoration: none;
+    color: black;
+}
+.navBar a:hover {
+    color: #e5b9d5;
+}
+.navBar .actu{
+    color: rgb(240, 58, 41);
+}
+.navBar .passeport{
+    color: #e5b9d5;
+}
 
 .block-slider .title {
     display: block;
