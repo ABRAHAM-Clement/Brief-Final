@@ -1,0 +1,41 @@
+html body { 
+    margin: 0;
+}
+
+.block-slider .title {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 8;
+    padding: 0 30px;
+}
+
+.block-slider .title h1 {
+    color: #fff
+}
+
+.block-slider.base-line .title {
+    position: absolute;
+    top: auto;
+    bottom: 130px;
+    width: 100%;
+    left: auto;
+    transform: translate(0,0);
+}
+
+.block-slider.base-line .title h1 {
+    color: red;
+    font-size: 2.5rem;
+    line-height: 1em
+}
+
+.block-slider.base-line .title .field_base_line {
+    color: red;
+    font-size: 1.875rem;
+    line-height: 1em;
+    display: block
+}
