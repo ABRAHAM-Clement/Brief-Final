@@ -4,11 +4,13 @@
 }
 .NavbarReseaux{
     display: flex;
-  
     align-items: center;
     background-color: transparent;
     justify-content: space-between;
     margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .link-share a{
     width: 1.5rem;
@@ -76,6 +78,9 @@
 .fa-heart, .fa-user-circle{
      padding: 0.6rem;
 }
+.SVG{
+    width: 5%;
+}
 
 .navBar img{
     width: 3rem;
@@ -90,7 +95,14 @@
     text-transform: uppercase;
     font-weight: 700;
 }
-
+.navBar{
+    position: fixed;
+    background-color: white;
+    margin-top: 3.3rem;
+    width: 100%;
+    top: 0;
+    padding: 0.5rem;
+}
 
 
 .block-slider .title {
@@ -102,7 +114,7 @@
     width: 100%;
     text-align: center;
     z-index: 8;
-    padding: 0 30px;
+    padding: 0;
 }
 
 .block-slider .title h1 {
@@ -129,4 +141,7 @@
     font-size: 1.875rem;
     line-height: 1em;
     display: block
+}
+.bckImage{
+    width: 100%;
 }
