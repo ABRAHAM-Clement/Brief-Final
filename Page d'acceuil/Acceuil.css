@@ -156,4 +156,6 @@ div.text_desc{
     font-family: 'Roboto', sans-serif;
     grid-area: 2 / 2 / 3 / 3;
 }
-
+.bckImage{
+    width: 100%;
+}
