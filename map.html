@@ -116,8 +116,38 @@
         </div>
     </div>
     <!-- Conteneur de la carte + article -->
-    <div class="container">
-        <!-- Article étape -->
+    <div id="itineraire-container">
+        <div id="left-side-container">
+            <!-- Menu du haut -->
+            <div id="partie-haute-container">
+                <div class="etape-menu">
+                    <div class="lien-container lien-container-selected"><a href="#" class="onglet-menu"><span class="onglet-menu-etapes">étapes</span></a></div>
+                    <div class="lien-container"><a href="#" class="onglet-menu"><span class="onglet-menu-boucles">boucles</span></a></div>
+                    <div class="lien-container"><a href="#" class="onglet-menu"><span class="onglet-menu-gps">mon gps</span></a></div>
+                </div>
+                <div class="planifier-itineraire">
+                    <p>Planifier un itinéraire sur cette véloroute</p>
+                    <div class="formulaire-itineraire">
+                        <select name="etape-depart" id="etape-depart">
+                            <option value="">Etape de départ</option>
+                        </select>
+                        <span class="swap-vert-icon material-symbols-outlined">swap_vert</span>
+                        <select name="etape-arrive" id="etape-arrive">
+                            <option value="">Etape d'arrivée</option>
+                        </select>
+                        <button>Planifier mon itinéraire</button>
+                    </div>
+                </div>
+                <div id="gpx-container">
+                    <a href="./gpx/trace-complet.gpx">Télécharger le .gpx de la vélodyssée</a>
+                </div>
+            </div>
+            <!-- Partie basse du côté gauche qui contient la liste des étapes-->
+            <div id="container-liste-etape"></div>
+        </div>
+        <div id="map"></div>
+    </div>
+        <!-- Article étape 
         <div class="description">
             <h2 id="titreEtape">Eurovélo - Hauts de france</h2>
             <img id="bouton" src="images/icon/retour.png" alt="Bouton de retour à l'étape complete">
@@ -128,7 +158,7 @@
                 <img class="iconeEtape" src="images/icon/fleche-haut.png" alt="icone montée">
                 <span id="descente">1071m</span>
                 <img class="iconeEtape" src="images/icon/fleche-bas.png" alt="icone descente">
-                <!-- Barre des boutons -->
+                <!-- Barre des boutons 
                 <div class="download">
                     <a href="" id="etapePrecedente"><img id="iconePrecedente" src="images/icon/precedent.png"
                             alt="Bouton étape précédente">Etape précédente</a>
@@ -153,7 +183,7 @@
                 Située au cœur de l'Europe, avec 6 004 947 habitants en 2019, et une densité de population de 189
                 hab/km2, elle représente la 3e région la plus peuplée de France et la 2e la plus densément peuplée de
                 France métropolitaine après l'Île-de-France. </p>
-        </div>
+        </div>-->
         <!-- Carte -->
         <div id="map"></div>
     </div>

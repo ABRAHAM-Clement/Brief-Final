@@ -124,16 +124,44 @@ function drawMap(etapes) {
  
 // Modification de la fiche article
 function populateArticle(etape) {
-    // titreEtape.innerHTML = etape.attributes.name;
-    // texteEtape.innerHTML = etape.attributes.texteEtape;
-    // distance.innerHTML = etape.attributes.distance;
-    // montee.innerHTML = etape.attributes.montee;
-    // descente.innerHTML = etape.attributes.descente;
-    // image.src = url + etape.attributes.img.data.attributes.url;
-    // gpxDownload.href = url + etape.attributes.gpx.data[0].attributes.url;
+   // titreEtape.innerHTML = etape.attributes.name;
+   // texteEtape.innerHTML = etape.attributes.texteEtape;
+   // distance.innerHTML = etape.attributes.distance;
+   // montee.innerHTML = etape.attributes.montee;
+   // descente.innerHTML = etape.attributes.descente;
+   // image.src = url + etape.attributes.img.data.attributes.url;
+   // gpxDownload.href = url + etape.attributes.gpx.data[0].attributes.url;
     setButtons();
 }
  
+// Préparation de la liste des étapes
+function populateListeEtape(etape,i) {
+    console.log('dans populateListeEtape');
+    // containerListeEtape;
+    let image=urlStrapi+etape.attributes.image.data.attributes.url;
+    let distance=etape.attributes.distance;
+    let titre=etape.attributes.titre_texte;
+    let villeDepart=etape.attributes.ville_depart;
+    let villeArrive=etape.attributes.ville_arrive;
+    let texte=etape.attributes.texte;
+    texte=texte.substring(0,10)+' [...]';
+    // On crée la liste des étapes une à une
+    listeEtape = listeEtape + 
+    `<div class="etape-container" id="etape-container-${i}">
+    <div class="image-etape-container">
+        <img src="${image}" class="image-etape">
+        <span class="distance-etape">${distance} km</span>
+    </div>
+    <div class="etape-content-container"">
+        <h2>${titre}</h2>
+        <span>${villeDepart} &gt; ${villeArrive}</span>
+        <p>${texte}</p>
+    </div>
+</div>`;
+
+}
+
+
 // Retour au tracé complet
 function reset() {
     map.setView([50.8, 2.6], 9);
