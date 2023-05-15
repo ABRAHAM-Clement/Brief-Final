@@ -312,7 +312,7 @@ form {
     width: 100%;
     display: inline-block;
     margin: auto;
-    text-align: center;
+    text-align: start;
 }
 
 .navigation li {
@@ -323,7 +323,7 @@ form {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    margin-left: 2%;
+    margin-left: 1%;
     font-size: 1em ;
     text-transform: uppercase;
   }
@@ -340,7 +340,7 @@ form {
 
 #loupe {
     height: 30%;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-right: 1%;
     margin-top: 30px;
 }
