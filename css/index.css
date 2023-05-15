@@ -514,7 +514,7 @@ form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(/images/imagesbg/Flou4.jpg);
+  background-image: url(/images/imagesbg/Flou2.jpg);
   backdrop-filter: blur(8px);
   background-size: cover;
   width: 100%;
@@ -1051,7 +1051,22 @@ ul {
     margin: auto;
 
   }
-
+  .buttons h1{
+    font-size:1.8em ;
+  }
+  .velodepartarivee {
+    display: none;
+  }
+  .descriptionHeader{
+    display: none;
+  }
+  .imageCarte {
+    display: none;
+  }
+  .conteneurcarte {
+    display: flex;
+    width: 100%;
+  }
   #menu {
     width: 8%;
     height: 8%;
@@ -1145,7 +1160,7 @@ ul {
     width: 80%;
   }
 
-  .conteneurcarte form select {
+  .conteneurcarte2 form select {
     margin-left: 8px;
   }
 
