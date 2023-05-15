@@ -86,6 +86,7 @@ header {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   margin-left: -4px;
+  cursor: pointer;
 }
 
 .haut-droite {
@@ -197,6 +198,7 @@ header {
   margin: auto;
   border: 2px solid black;
   border-radius: 3px;
+  cursor: pointer;
 }
 #loupe {
   height: 30%;
