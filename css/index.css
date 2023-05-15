@@ -172,7 +172,7 @@ header {
   width: 100%;
   display: inline-block;
   margin: auto;
-  text-align: center;
+  text-align: start;
 }
 
 .navigation li {

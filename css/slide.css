@@ -39,31 +39,94 @@ body {
 
 .carousel h1{
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 33%;
   z-index: 12;
   color: #fffefe;
   font-weight: 900;
   font-size: 5em;
-  font-family: ;
+  
 }
-
+.carousel .descriptionHeader {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  z-index: 12;
+  color: #fffefe;
+  font-weight: 900;
+  font-size: 2em;
+}
 .slide.current .content {
   opacity: 1;
   transform: translateX(600px);
   transition: all 0.7s ease-in-out 0.3s;
 }
+.velodepartarivee {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  margin: auto;
+  z-index: 15;
+  display: flex;
+  column-gap: 3.333%;
+  padding-top: 3vw;
+  width: 70%;
+}
+.veloform {
+  background-color: white;
+  display: flex;
+  height: 2.5vw;
+  border-radius: 5px;
+  
+}
+.veloform input {
+  border: none;
+  border-radius: 5px;
+  font-size: 0.75vw;
+  font-weight: 600;
+}
+.veloform input:focus {
+  outline:none;
+} 
+.velobefore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5vw;
+  width: 2.5vw;
+}
+.velocircle {
+  width: 10px;
+  height: 10px;
+  content: "";
+  border: 2px solid green;
+  border-radius: 100%;
+}
+.velocirclered {
+  border: 2px solid red;
+}
+.velodepartarivee button {
+  background-color: #007c74;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+} 
+.velodepartarivee > * {
+  width: 33.333%;
+}
 /* style des boutons */
 .buttons button#next {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 15px;
   z-index: 12;
 }
 
 .buttons button#prev {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
   z-index: 12;
 }
