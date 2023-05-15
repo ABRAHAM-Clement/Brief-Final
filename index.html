@@ -53,8 +53,8 @@
         <li class="liennav"><a href="#">Infos Pratique</a></li>
         <li class="liennav"><a href="#">Suggestions</a></li>
         <li class="liennav"><a href="#">Inspiration</a></li>
-        <li class="liennav"><a href="#" style="color: red;">Actualité</a></li>
-        <li class="liennav"><a href="#">Passeport</a></li>
+        <li class="liennav"><a href="#" style="color: red;">Actualité 💬</a></li>
+        <li class="liennav"><a href="#" style="color: #007c74;">Passeport 🗺️</a></li>
 
         </ul>
         <input type="image" src="images/icon/loupe.png" alt="loupe" id="loupe" onclick="afficher()">
@@ -85,10 +85,13 @@
     <div class="navm">
       <img src="images/icon/signe-de-la-croix.png" alt="icon de croix" id="croix_mobile">
       <ul id="navm_ul">
-        <li class="liennav"><a href="index.html">Accueil</a></li>
         <li class="liennav"><a href="map.html">L'itinéraire</a></li>
         <li class="liennav"><a href="temoignage.html">Témoignages</a></li>
-        <li class="liennav"><a href="news.html">News</a></li>
+        <li class="liennav"><a href="#">Infos Pratique</a></li>
+        <li class="liennav"><a href="#">Suggestions</a></li>
+        <li class="liennav"><a href="#">Inspiration</a></li>
+        <li class="liennav"><a href="#" style="color: red;">Actualité 💬</a></li>
+        <li class="liennav"><a href="#" style="color: #007c74;">Passeport 🗺️</a></li>
       </ul>
       <hr>
       <a href="" id="es_pro">Espace pro</a>
@@ -129,8 +132,24 @@
           <img src="./images/imagescarousel/image1.jpg" alt="">
           
         </div>
+        <form class="velodepartarivee">
+          <div class="veloform">
+              <div class="velobefore">
+                  <div class="velocircle"></div>
+              </div>
+              <input type="text" name="depart" id="depart" placeholder="Lieu de départ">
+          </div>
+          <div class="veloform">
+              <div class="velobefore">
+                  <div class="velocircle velocirclered"></div>
+              </div>
+              <input type="text" name="depart" id="depart" placeholder="Lieu d'arrivée">
+          </div>
+          <button type="submit">CALCULER MON ITINÉRAIRE</button>
+        </form>
         <div class="buttons">
           <h1>VEL'OPALE</h1>
+          <h6 class="descriptionHeader">Les Hauts de France en roue libre !</h6>
           <button id="prev"><i class="fas fa-arrow-left"></i></button>
           <button id="next"><i class="fas fa-arrow-right"></i></button>
         </div>
@@ -160,8 +179,11 @@
         </p>
         <img src="images/icon/oizoavelo.jpg" alt="oiseauvelo">
       </div>
-    
-
+      <div class="imageCarte">
+        <img src="./images/imagescarousel/mapacceuil.PNG" alt="">
+      </div>
+  </section>
+  <section class="conteneurcarte2">
       <div class="formulaire">
         <form action="get">
           <p>Pédalez selon vos envies</p>
