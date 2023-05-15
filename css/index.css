@@ -333,16 +333,21 @@ main {
 
 .conteneurcarte {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 50px;
   width: 100%;
-  box-sizing: border-box;
-  /* margin-left: 300px;
-  margin-right: 300px; */
 }
-
+.imageCarte img {
+  width: 90%;
+  margin: 5% 5%;
+  align-items: center;
+  justify-content: center;
+}
 .descriptif {
   background-color: white;
-  width: 150%;
+  width: 100%;
   text-align: center;
   padding: 20px;
   line-height: 25px;
@@ -353,7 +358,7 @@ main {
 }
 
 .descriptif h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #231f20;
   font-family: 'Poppins', sans-serif;
   line-height: 40px;
@@ -445,16 +450,22 @@ main {
 
 .formulaire {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   width: 350px;
   background-color: #007c74;
   border-radius: 2px;
-  margin: auto;
-  margin-bottom: 30px;
+  margin: auto;  
   box-shadow: -3px 3px 8px lightslategray;
 }
-
+.conteneurcarte2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
 .formulaire p {
   font-size: 2em;
 }
@@ -477,7 +488,7 @@ form {
   margin-top: 20px;
 }
 
-.conteneurcarte form {
+.conteneurcarte2 form {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -487,7 +498,7 @@ form {
   margin-bottom: 45px;
 }
 
-.conteneurcarte form select {
+.conteneurcarte2 form select {
   margin-bottom: 15px;
   margin-left: 20px;
   padding: 15px 10px;
