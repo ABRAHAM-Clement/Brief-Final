@@ -37,8 +37,15 @@ body {
   padding: 35px;
 }
 
-.slide .content h1 {
-  margin-bottom: 10px;
+.carousel h1{
+  position: absolute;
+  top: 35%;
+  left: 33%;
+  z-index: 12;
+  color: #fffefe;
+  font-weight: 900;
+  font-size: 5em;
+  font-family: ;
 }
 
 .slide.current .content {
@@ -51,12 +58,14 @@ body {
   position: absolute;
   top: 40%;
   right: 15px;
+  z-index: 12;
 }
 
 .buttons button#prev {
   position: absolute;
   top: 40%;
   left: 15px;
+  z-index: 12;
 }
 
 .buttons button {

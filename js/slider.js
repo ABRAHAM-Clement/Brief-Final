@@ -2,7 +2,7 @@
 /* strapi carrousels  Début */
  let url = 'http://90.110.218.245:5001'
 
- fetch("http://90.110.218.245:5001/api/carrousel?populate/*")
+ fetch("http://90.110.218.245:5001/api/carrousel2s?populate=*")
     .then(function (res) {
         if (res.ok) {
             return res.json();
@@ -12,11 +12,11 @@
         let eltCarrousels = document.querySelector('.slider')
 
         for (let slide of value.data) {
-
+            console.log(slide);
              let eltCarrousel = document.createElement('div')
               eltCarrousels.appendChild(eltCarrousel)
               eltCarrousel.classList.add('slide')         
-              eltCarrousel.style.cssText = 'background: url( ' + url + slide.attributes.Image.url + ' ) no-repeat center top/cover ';  
+              eltCarrousel.style.cssText = 'background: url( ' + url + slide.attributes.ImagesCarrousel.data.attributes.url + ' ) no-repeat center top/cover ';  
               eltCarrousels.firstElementChild.classList.add('current')
 
         }
@@ -91,4 +91,3 @@ if (auto) {
   // temps entre les slides
   slideInterval = setInterval(nextSlide, intervalTime);
 }
-
