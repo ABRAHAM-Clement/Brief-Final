@@ -107,7 +107,7 @@
 
 .block-slider .title {
     display: block;
-    position: absolute;
+    /*position: absolute;*/
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -122,7 +122,7 @@
 }
 
 .block-slider.base-line .title {
-    position: absolute;
+    /*position: absolute;*/
     top: auto;
     bottom: 130px;
     width: 100%;
