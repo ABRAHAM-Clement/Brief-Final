@@ -475,7 +475,7 @@ body {
 /* avis flex */
 
 .conteneur-avis h5{
-  color: black;
+  color: rgb(220, 90, 90);
   transform: none;
 }
 .conteneur-avis{
