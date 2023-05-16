@@ -9,22 +9,22 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 let mouseoverToggle = true
 let mouseoutToggle = true
 let lastTrackClicked = null
-// let titreEtape = document.getElementById("titreEtape")
-// let texteEtape = document.getElementById("texteEtape")
-// let montee = document.getElementById("montee")
-// let descente = document.getElementById("descente")
-// let distance = document.getElementById("distance")
-// let gpxDownload = document.getElementById("gpxDownload")
-// let image = document.getElementById("img")
+let titreEtape = document.getElementById("titreEtape")
+let texteEtape = document.getElementById("texteEtape")
+let montee = document.getElementById("montee")
+let descente = document.getElementById("descente")
+let distance = document.getElementById("distance")
+let gpxDownload = document.getElementById("gpxDownload")
+let image = document.getElementById("img")
 let urlStrapi = 'http://90.110.218.245:5001'
 let etapes = null
-// let etapeSuivante = document.getElementById("etapeSuivante")
-// let etapePrecedente = document.getElementById("etapePrecedente")
+let etapeSuivante = document.getElementById("etapeSuivante")
+let etapePrecedente = document.getElementById("etapePrecedente")
 let next = null
 let previous = null
  
 // Chargement des données
-fetch( urlStrapi + "/api/etapes?populate=*")
+fetch( urlStrapi + "/api/liste-etapes?populate=*")
     .then(function (res) {
         if (res.ok) {
             return res.json();
@@ -33,8 +33,8 @@ fetch( urlStrapi + "/api/etapes?populate=*")
     .then(function (value) {
         etapes = value.data
         drawMap(etapes)
-        // clicSuivant()
-        // clicPrecedent()
+        clicSuivant()
+        clicPrecedent()
     })
     .catch(function (err) {
         //Une erreur est survenue
@@ -115,22 +115,22 @@ function drawMap(etapes) {
             });
         i++; // On incrémente le compteur
     }
-    // const bouton = document.getElementById("bouton");
-    // bouton.addEventListener('click', function () {
-    //     reset()
-    // })
+    const bouton = document.getElementById("bouton");
+    bouton.addEventListener('click', function () {
+        reset()
+    })
 }
  
  
 // Modification de la fiche article
 function populateArticle(etape) {
-   // titreEtape.innerHTML = etape.attributes.name;
-   // texteEtape.innerHTML = etape.attributes.texteEtape;
-   // distance.innerHTML = etape.attributes.distance;
-   // montee.innerHTML = etape.attributes.montee;
-   // descente.innerHTML = etape.attributes.descente;
-   // image.src = url + etape.attributes.img.data.attributes.url;
-   // gpxDownload.href = url + etape.attributes.gpx.data[0].attributes.url;
+   titreEtape.innerHTML = etape.attributes.name;
+   texteEtape.innerHTML = etape.attributes.texteEtape;
+   distance.innerHTML = etape.attributes.distance;
+   montee.innerHTML = etape.attributes.montee;
+   descente.innerHTML = etape.attributes.descente;
+   image.src = url + etape.attributes.img.data.attributes.url;
+   gpxDownload.href = url + etape.attributes.gpx.data[0].attributes.url;
     setButtons();
 }
  
