@@ -778,7 +778,7 @@ div#itineraire-container {
 
 /* A partir d'ici on défini les règles pour l'affichage de la liste des étapes sur la gauche */
 div#left-side-container {
-    margin: 0;
+    margin: 500px 0;
     padding: 0;
     width:50vw;
     height: 80vh;
@@ -823,7 +823,7 @@ div#partie-haute-container div.etape-menu div.lien-container a.onglet-menu {
 
 div#partie-haute-container div.etape-menu div.lien-container a.onglet-menu span.onglet-menu-etapes::before {
     display: inline-block;
-    font-family: 'Material Icons';
+    font-family: '';
     content: 'timeline';
     text-transform: none;
 }
