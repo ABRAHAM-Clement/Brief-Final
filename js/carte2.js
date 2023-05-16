@@ -154,6 +154,12 @@ function calculateDistance(distance) {
     return distance.toFixed(1);
 }
 
+
+
+
+
+
+
 // Préparation de la liste des étapes
 function populateListeEtape(etape,i) {
     console.log('dans populateListeEtape');
@@ -164,7 +170,7 @@ function populateListeEtape(etape,i) {
     let villeDepart=etape.attributes.ville_depart;
     let villeArrive=etape.attributes.ville_arrive;
     let texte=etape.attributes.texte;
-    texte=texte.substring(0,100)+' [...]';
+    texte=texte.substring(0,300)+' [...]';
     // On crée la liste des étapes une à une
     listeEtape = listeEtape +
     `<div class="etape-container" id="etape-container-${i}">
@@ -180,6 +186,11 @@ function populateListeEtape(etape,i) {
 </div>`;
 
 }
+
+
+
+
+
 
 // Retour au tracé complet
 function reset() {
