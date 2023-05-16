@@ -276,7 +276,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 98vh;
+    height: 100vh;
     background: url(/images/imagesbg/ilonfait.jpg) no-repeat;
     background-size: cover;
   }
@@ -326,124 +326,82 @@ body {
     font-weight: 500;
   }
 
-/* div.divarticle  */
-  div.divarticle{
-    margin: auto;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1em;
-  }
-  div.divarticle article.article1{
-    flex:100%;
-  }
-  div.divarticle article.article2{
-    flex:25%;
-  }
-  div.divarticle article.article3{
-    flex:72%;
-  }
-  div.divarticle article.article4{
-    flex:31%;
-  }
-  div.divarticle article.article5{
-    flex:31%;
-  }
-  div.divarticle article.article6{
-    flex:31%;
-  }
-
-/* taille article en attente de thomas */
-
 /* temoignage */
-.conteneur-temoignage{
-  background-color: white;
+#conteneur-temoignage{
+  background-color: rgb(255, 255, 255);
+  width: 100%;  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  
+}
+.temoignage{   
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1%;
-  justify-content: space-between;
-  padding-left: 19%;
-  padding-right: 19%;
-  padding-top: 2%;
-  padding-bottom: 1.5%;
+  justify-content: center;
+  text-align: center;
 }
 
-.article-child:hover img{
+
+
+.temoignage img {
+  border-radius: 1.2%;
+  width: 400px;
+  height: 350px;
+}
+
+.temoignage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.2%;
+}
+
+.temoignage a {
+  overflow: hidden;
+
+}
+
+.temoignage h1 {
+  text-align: center;
+  top: 80%;
+  left: 50%;
+  display: inline;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  font-size: 1em;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  font-size: 26px;
+  font-weight: bolder;  
+  width: 100%;
+
+}
+
+.temoignage:hover h1 {
+  top: 70%;
+  transition: 0.4s;
+  position: absolute;
+  z-index: 1222;
+  
+}
+
+.temoignage:hover img {
   filter: blur(6px);
-  transition: .4s;
+  transition: 0.4s;
   transform: scale(1.2);
 }
 
-.article-child:hover{
-  box-shadow: 4px 4px 4px rgb(75, 75, 75);
-  transition: .3s
-}
-
-.article-child img{
-  transition: .4s;
-}
-
-.article-child{
-  margin-bottom: 1%;
-  position: relative;
-  text-align: center;
-  overflow: hidden;
+.temoignage:hover {
+  box-shadow: 2px 2px 7px rgb(75, 75, 75);
   transition: .3s;
-  border-radius: 1%;
 }
 
-.article-child:first-child{
-  flex: 0 0 100%;
-}
-
-.article-child:nth-child(3){
-  flex: 0 0 65.64%;
-
-}
-
-.article-child:nth-child(2){
-  flex: 0 0 31.50%;
-}
-.article-child:nth-child(2) .image{
-  width: 100%;
-}
-.article-child .image{
-  width: 370px;
-  height: 370px;
-  border-radius: 0.9%;
-}
-
-.article-child:nth-child(3) .image{
-     width: 100%;
-     height: 370px;
-}
-
-
-.article-child:first-child .image{
-  width: 100%;
-  height: 100%;
-}
-
-h4 {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  transition: .5s;
-  font-weight: bolder;
-  font-size: 22px;
-  background: rgb(255, 175, 16,0.8);
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.article-child:hover h4{
- top: 70%;
- transition: .4s;
+.temoignage img {
+  transition: .4s;
 }
 
 /* bouton lien */
