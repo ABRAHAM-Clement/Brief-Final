@@ -786,7 +786,7 @@ div#itineraire-container {
 div#left-side-container {
     margin-top: 130px;
     padding: 0;
-    width:50vw;
+    width: 50vw;
     height: calc(100vh - 130px);
     display: flex;
     flex-flow: column nowrap;
@@ -1072,4 +1072,8 @@ div.end-map-marker {
 
 div.map-marker:hover {
     border-color: #2f9f48;
+}
+
+.etape-detail-image img {
+    width: 100%;
 }
