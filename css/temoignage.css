@@ -926,13 +926,13 @@ a.btnb{
 
 @media screen and (max-width:480px){
 
-  .conteneur-temoignage .article-child:nth-child(4){
+  #conteneur-temoignage .article-child:nth-child(4){
     flex: 100%;
   }
-  .conteneur-temoignage .article-child:nth-child(5){
+  #conteneur-temoignage .article-child:nth-child(5){
     flex: 100%;
   }
-  .conteneur-temoignage .article-child:nth-child(6){
+  #conteneur-temoignage .article-child:nth-child(6){
     flex: 100%;
   }
 
@@ -1149,11 +1149,14 @@ a.btnb{
 
   /*avis */
 
-  .avis-child{
-    margin: 3%;
+  .conteneurcarte{
+    margin: 0;
+    width: 100%;
+    flex-direction: initial;
   }
 
-  /*avis Formulaire*/
+
+   /*avis Formulaire*/
   .avis-formulaire{
     width: 100%;
   }
