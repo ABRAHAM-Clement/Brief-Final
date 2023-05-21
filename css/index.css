@@ -806,7 +806,94 @@ form {
   color: rgb(0, 0, 0);
   font-weight: 600;
 }
+.Partez {
+  margin-top: 50px;
+  background: url(/images/imagesbg/litoo.jpeg) no-repeat;
+  background-size: cover;
+  /* background-color: #007c74; */
+  width: 100%;
+  height: 93vh;
+  
+}
+.titrePartez{   
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.titrePartez h4{
+  font-weight: 400;
+  font-size: 3em;
+  margin: 1em 0;
+  color: #fff;
+}
+.titrePartez p {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 2em 0;
+}
+.imagePartez {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 95%;
+  gap: 2%;
+  margin:auto;
+  justify-content:center ;
+}
 
+.imagePartez img {
+  border-radius: 1.2%;
+  width: 450px;
+  height: 300px;
+}
+
+.imgPartez {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.2%;
+}
+
+.imgPartez a {
+  overflow: hidden;
+
+}
+
+.imgPartez p {
+  text-align: center;
+  top: 80%;
+  left: 50%;
+  display: inline;
+  position: absolute;
+  color: white;
+  width: 200px;
+  font-size: 1em;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  font-size: 26px;
+  font-weight: bolder;  
+  width: 100%;
+
+}
+
+.imgPartez:hover p {
+  top: 70%;
+  transition: 0.4s;
+}
+
+.imgPartez:hover img {
+  filter: blur(6px);
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+.imgPartez:hover {
+  box-shadow: 2px 2px 7px rgb(75, 75, 75);
+  transition: .3s;
+}
+
+.imgPartez img {
+  transition: .4s;
+}
 
 /*Footer*/
 
