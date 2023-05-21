@@ -512,7 +512,8 @@ form {
   background-size: cover;
   /* background-color: #007c74; */
   width: 100%;
-  height: 80vh;
+  height: 90vh;
+  
 }
 .titreFait{   
   width: 100%;
@@ -534,7 +535,7 @@ form {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 95%;
   gap: 2%;
   margin:auto;
   justify-content:center ;
@@ -594,7 +595,7 @@ form {
   transition: .4s;
 }
 .btnFait {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 45%;
 }
 .btnFait a {
