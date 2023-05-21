@@ -381,13 +381,23 @@ grid-row-gap: 50px;
   width: 230px;
 }
 
+.titreTemoignage{
+  width: 125%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
 .temoignages {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 50px 350px 80px 350px;
-  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  width: 100%;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .temoignages img {
@@ -420,7 +430,6 @@ grid-row-gap: 50px;
   transition: 0.5s;
   font-size: 26px;
   font-weight: bolder;
-  background: rgb(255, 175, 16, 0.8);
   width: 100%;
 
 }
@@ -445,7 +454,92 @@ grid-row-gap: 50px;
   transition: .4s;
 }
 
+.trouverVelo {
+  margin-top: 50px;
+  /* background-color: #007c74; */
+  width: 100%;
+  height: 70vh;
+  
+}
+.titreTrouverVelo{   
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.titreTrouverVelo h4{
+  font-weight: 400;
+  font-size: 3em;
+  margin: 1em 0;
+  color: #000000;
+}
+.titreTrouverVelo p {
+  color: #000000;
+  font-size: 1em;
+  margin: 2em 0;
+}
+.imageTrouverVelo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 50%;
+  gap: 2%;
+  margin:auto;
+  justify-content:center ;
+}
 
+.imageTrouverVelo img {
+  border-radius: 1.2%;
+  width: 400px;
+  height: 250px;
+}
+
+.imgTrouverVelo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.2%;
+}
+
+.imgTrouverVelo a {
+  overflow: hidden;
+
+}
+
+.imgTrouverVelo p {
+  text-align: center;
+  top: 45%;
+  left: 50%;
+  display: inline;
+  position: absolute;
+  color: white;
+  width: 200px;
+  font-size: 1em;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: bolder;  
+  width: 100%;
+
+}
+
+.imgTrouverVelo:hover p {
+  top: 50%;
+  transition: 0.4s;
+}
+
+.imgTrouverVelo:hover img {
+  filter: blur(6px);
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+.imgTrouverVelo:hover {
+  box-shadow: 2px 2px 7px rgb(75, 75, 75);
+  transition: .3s;
+}
+
+.imgTrouverVelo img {
+  transition: .4s;
+}
 
 
 /*FORMULAIRE*/
@@ -606,6 +700,84 @@ form {
   border-radius: 8px;
   color: rgb(255, 255, 255);
   font-weight: 600;
+}
+
+/* avis */
+.avis-titre{
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+.avis-titre h2{
+  margin-top: 3%;
+  font-size: 2.6em;
+  font-weight: 300;
+}
+
+.avis-titre p{
+  color: #755d5d;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+}
+#conteneur-avis{
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1%;
+  padding: 5%  ;
+
+}
+
+#conteneur-avis h2{
+  font-size: 0.7em;
+  margin-bottom: 2%;
+}
+
+#conteneur-avis h3 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+#conteneur-avis h4{
+  margin: 0;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-start;
+  color: white ;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#conteneur-avis h5 {
+  font-weight: 400;
+}
+
+#conteneur-avis h6 {
+  font-weight: 900;
+  font-size: 1em;
+}
+.Avis-titre2{
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+#conteneur-avis .avis{
+  padding: 10%;  
+  min-height: 50vh;
+  background-color: #f4f4f4;
+  width: 80%;
+  
 }
 
 /*Footer*/
