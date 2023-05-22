@@ -1464,7 +1464,7 @@ div#container-liste-etape div.etape-detail-container {
     div#button-responsive-to-etape {
         display: none;
         position: fixed;
-        right: 2vw;
+        right: 1vw;
         bottom: 7vh;
         z-index: 1051;
     }
