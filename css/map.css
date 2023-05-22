@@ -1361,6 +1361,7 @@ div#container-liste-etape div.etape-detail-container {
         /* display: none; */
         width: 100vw;
         height: 100vh;
+        margin-top: 50px;
     }
 
     div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed {

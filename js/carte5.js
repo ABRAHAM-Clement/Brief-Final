@@ -40,30 +40,30 @@ let initialZoomLevel=responsive?8:9;
 
 
 // On écoute les boutons reponsives
-if (responsive) {
-    buttonResponsiveToMap.addEventListener('click', ()=> {
-        containerLeftSide.style.display='none';
-        containerMap.style.display='block';
-        buttonResponsiveToMap.style.display='none';
-        buttonResponsiveToEtape.style.display='block';
-        // Si on est dans l'affichage d'une étape
-        if (etapeEnCours!=null) {
-            // Nécessaire sur du responsive
-            map.invalidateSize();
-            AfficheEtapeSurMap(etapeEnCours);
-        } else {
-            map.invalidateSize();
-            map.setView([50.8, 2.6], initialZoomLevel);
-        }
-    });
+// if (responsive) {
+//     buttonResponsiveToMap.addEventListener('click', ()=> {
+//         containerLeftSide.style.display='none';
+//         containerMap.style.display='block';
+//         buttonResponsiveToMap.style.display='none';
+//         buttonResponsiveToEtape.style.display='block';
+//         // Si on est dans l'affichage d'une étape
+//         if (etapeEnCours!=null) {
+//             // Nécessaire sur du responsive
+//             map.invalidateSize();
+//             AfficheEtapeSurMap(etapeEnCours);
+//         } else {
+//             map.invalidateSize();
+//             map.setView([50.8, 2.6], initialZoomLevel);
+//         }
+//     });
 
-    buttonResponsiveToEtape.addEventListener('click', ()=> {
-        containerLeftSide.style.display='block';
-        containerMap.style.display='none';
-        buttonResponsiveToMap.style.display='block';
-        buttonResponsiveToEtape.style.display='none';
-    });
-}
+//     buttonResponsiveToEtape.addEventListener('click', ()=> {
+//         containerLeftSide.style.display='block';
+//         containerMap.style.display='none';
+//         buttonResponsiveToMap.style.display='block';
+//         buttonResponsiveToEtape.style.display='none';
+//     });
+// }
 
 // Création carte
 var map = L.map('map').setView([50.8, 2.6], initialZoomLevel);
