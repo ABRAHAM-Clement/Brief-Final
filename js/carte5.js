@@ -219,7 +219,7 @@ function afficheTopLeftContainer() {
                 <option value="">Don</option>
                 <option value="">Lille</option>
             </select>
-            <img src="images/icon/swap.png" alt="swap-vertical" id="swap-arrows">
+            <i class="ri-arrow-up-down-line"></i>
             <select name="etape-arrive" id="etape-arrive">
                 <option value="">Etape d'arrivée</option>
                 <option value="">Calais</option>
@@ -383,10 +383,10 @@ function afficheEtape(etape) {
                 <span class="etape-distance">
                     ${distance} Km&nbsp;&nbsp;
                 </span>
-                <span class="material-symbols-outlined">settings_ethernet</span>
+                <span class="material-symbols-outlined"><i class="fa-solid fa-arrows-left-right"></i></span>
                 <span class="etape-temps">
                  &nbsp;0 h 00 min&nbsp;
-                 </span>
+                 <i class="ri-timer-line"></i></span>
                  ${difficulte}
             </div>
             <div class="etape-detail-image">
