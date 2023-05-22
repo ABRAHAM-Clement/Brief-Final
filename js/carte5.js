@@ -206,10 +206,34 @@ function afficheTopLeftContainer() {
         <div class="formulaire-itineraire">
             <select name="etape-depart" id="etape-depart">
                 <option value="">Etape de départ</option>
+                <option value="">Calais</option>
+                <option value="">Ardres</option>
+                <option value="">Watten</option>
+                <option value="">Saint-Omer</option>
+                <option value="">Aire-sur-la-Lys</option>
+                <option value="">Saint-Venant</option>
+                <option value="">Béthune</option>
+                <option value="">Parc d'Olhain</option>
+                <option value="">Angres</option>
+                <option value="">Lens</option>
+                <option value="">Don</option>
+                <option value="">Lille</option>
             </select>
-            <span class="swap-vert-icon material-symbols-outlined">swap_vert</span>
+            <img src="images/icon/swap.png" alt="swap-vertical" id="swap-arrows">
             <select name="etape-arrive" id="etape-arrive">
                 <option value="">Etape d'arrivée</option>
+                <option value="">Calais</option>
+                <option value="">Ardres</option>
+                <option value="">Watten</option>
+                <option value="">Saint-Omer</option>
+                <option value="">Aire-sur-la-Lys</option>
+                <option value="">Saint-Venant</option>
+                <option value="">Béthune</option>
+                <option value="">Parc d'Olhain</option>
+                <option value="">Angres</option>
+                <option value="">Lens</option>
+                <option value="">Don</option>
+                <option value="">Lille</option>
             </select>
             <button>Planifier mon itinéraire</button>
         </div>
@@ -331,7 +355,7 @@ function afficheEtape(etape) {
     <div class="top-etape-flex-column">
         <div class="top-etape-flex-row-1">
             <div class="top-etape-flex-row-2">
-                <a href="#" onclick="retourneListeEtape()"><span class="material-symbols-outlined">arrow_back</span></a>
+                <a href="#" onclick="retourneListeEtape()"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a>
                 <div class="top-etape-flex-column">
                     <span class="etape-desc-trajet">${villeDepart} &gt; ${villeArrive}</span>
                     <span class="etape-desc-veloeuro">Le Véloeuro</span>
@@ -378,13 +402,13 @@ function afficheEtape(etape) {
             </div>
             <div class="etape-bottom-block-fixed">
                 <div class="etape-detail-bottom-link">
-                    <a href="#"><span class="material-symbols-outlined">favorite_border</span>&nbsp;CARNET DE VOYAGE</a>
-                    <a href="${urlStrapi}${fichierGpx}"><span class="material-symbols-outlined">file_download</span>&nbsp;TRACE GPX</a>
-                    <a href="#"><span class="material-symbols-outlined">print</span>&nbsp;FICHE PDF</a>
+                    <a href="#"><i class="fa-solid fa-heart-circle-plus" style="color: #000000;"></i>&nbsp;CARNET DE VOYAGE</a>
+                    <a href="${urlStrapi}${fichierGpx}"><i class="fa-solid fa-print" style="color: #000000;"></i>&nbsp;TRACE GPX</a>
+                    <a href="#"><i class="fa-solid fa-print" style="color: #000000;"></i>&nbsp;FICHE PDF</a>
                 </div>
                 <div class="etape-detail-bottom-button">
                     <div class="container-bouton-precedent" id="bouton-etape-precedente">
-                        <div><a href="#" onclick="afficheEtape(${etapePrecedente})"><span class="material-symbols-outlined">arrow_back</span></a></div>
+                        <div><a href="#" onclick="afficheEtape(${etapePrecedente})"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a></div>
                         <div class="etape-detail-bottom-bouton-precedent">
                             <a href="#" onclick="afficheEtape(${etapePrecedente})">
                                 <span>étape précédente</span><br>
@@ -402,7 +426,7 @@ function afficheEtape(etape) {
                                 vers ${villeSuivante}
                             </a>
                         </div>
-                        <div><a href="#" onclick="afficheEtape(${etapeSuivante})"><span class="material-symbols-outlined">arrow_forward</span></a></div>
+                        <div><a href="#" onclick="afficheEtape(${etapeSuivante})"><i class="fa-solid fa-arrow-right" style="color: #000000;"></i></a></div>
                     </div>
                 </div>
             </div>
