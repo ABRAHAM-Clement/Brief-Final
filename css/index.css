@@ -1545,6 +1545,11 @@ ul {
     text-align: justify;
   }
 
+  #conteneur-avis {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
   /* fleche pour remmonter en version mobile */
 
   .flechemobile {
