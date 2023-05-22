@@ -402,16 +402,16 @@ function afficheEtape(etape) {
             </div>
             <div class="etape-bottom-block-fixed">
                 <div class="etape-detail-bottom-link">
-                    <a href="#"><i class="fa-solid fa-heart-circle-plus" style="color: #000000;"></i>&nbsp;CARNET DE VOYAGE</a>
+                    <a href="#"><i class="fa-solid fa-heart-circle-plus" ;"></i>&nbsp;CARNET DE VOYAGE</a>
                     <a href="${urlStrapi}${fichierGpx}"><i class="ri-download-2-line"></i></i>&nbsp;TRACE GPX</a>
-                    <a href="#"><i class="fa-solid fa-print" style="color: #000000;"></i>&nbsp;FICHE PDF</a>
+                    <a href="#"><i class="fa-solid fa-print" ;"></i>&nbsp;FICHE PDF</a>
                 </div>
                 <div class="etape-detail-bottom-button">
                     <div class="container-bouton-precedent" id="bouton-etape-precedente">
                         <div><a href="#" onclick="afficheEtape(${etapePrecedente})"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a></div>
                         <div class="etape-detail-bottom-bouton-precedent">
                             <a href="#" onclick="afficheEtape(${etapePrecedente})">
-                                <span>étape précédente</span><br>
+                                <span>ETAPE PRECEDENTE</span><br>
                                 depuis ${villePrecedente}
                             </a>
                         </div>
@@ -422,11 +422,11 @@ function afficheEtape(etape) {
                     <div class="container-bouton-suivant" id="bouton-etape-suivante">
                         <div class="etape-detail-bottom-bouton-suivant">
                             <a href="#" onclick="afficheEtape(${etapeSuivante})">
-                                <span>étape suivante</span><br>
+                                <span>ETAPE SUIVANTE</span><br>
                                 vers ${villeSuivante}
                             </a>
                         </div>
-                        <div><a href="#" onclick="afficheEtape(${etapeSuivante})"><i class="fa-solid fa-arrow-right" style="color: #000000;"></i></a></div>
+                        <div><a href="#" onclick="afficheEtape(${etapeSuivante})"><i id="iconFleche" class="fa-solid fa-arrow-right" style="color: #000000;"></i></a></div>
                     </div>
                 </div>
             </div>
