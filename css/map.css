@@ -945,7 +945,7 @@ div#partie-haute-container div#gpx-container a::before {
     font-size: 1.3rem;
     font-weight: 800;
     font-style: normal;
-    content: 'file_download';
+    content: '';
     text-transform: none;
     position: relative;
     top: 5px;

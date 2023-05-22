@@ -239,7 +239,7 @@ function afficheTopLeftContainer() {
         </div>
     </div>
     <div id="gpx-container">
-        <a href="./gpx/trace-complet.gpx">Télécharger le .gpx de la vélodyssée</a>
+        <a href="./gpx/trace-complet.gpx"><i class="ri-download-2-line"></i>&nbsp&nbspTélécharger le .gpx de la vélodyssée</a>
     </div>`;
 }
 
@@ -403,7 +403,7 @@ function afficheEtape(etape) {
             <div class="etape-bottom-block-fixed">
                 <div class="etape-detail-bottom-link">
                     <a href="#"><i class="fa-solid fa-heart-circle-plus" style="color: #000000;"></i>&nbsp;CARNET DE VOYAGE</a>
-                    <a href="${urlStrapi}${fichierGpx}"><i class="fa-solid fa-print" style="color: #000000;"></i>&nbsp;TRACE GPX</a>
+                    <a href="${urlStrapi}${fichierGpx}"><i class="ri-download-2-line"></i></i>&nbsp;TRACE GPX</a>
                     <a href="#"><i class="fa-solid fa-print" style="color: #000000;"></i>&nbsp;FICHE PDF</a>
                 </div>
                 <div class="etape-detail-bottom-button">
