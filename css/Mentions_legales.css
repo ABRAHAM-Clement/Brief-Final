@@ -5,7 +5,7 @@ body {
 
   /*Header*/
   
-  header {
+ /* header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -283,7 +283,7 @@ body {
   main section p{
     color: #585858;
   }
-
+*/
 
 
 
@@ -614,7 +614,7 @@ ul {
 @media screen and (max-width:1080px) {
 
   /*Header*/
-  .haut-droite{
+  /*.haut-droite{
     width: 45%;
   }
   .haut-gauche{
