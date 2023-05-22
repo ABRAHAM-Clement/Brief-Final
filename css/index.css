@@ -1457,8 +1457,9 @@ ul {
     margin-right: 5px;
   }
   .fait {
-  height: 210vh;
-  background: #000000;
+  height: 150vh;
+  background: url(/images/imagesbg/ilonfait.jpg) no-repeat;
+  background-size: cover;
   margin: 0;
   color: #ffffff;
   margin-top: 25px;
@@ -1470,11 +1471,30 @@ ul {
     color: #fff;
   }
   .btnFait  {
-   display: none;
+   margin-top: 50px;
   }
-
-  
- 
+  .imgfait img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .avis{
+    margin: 5px 0;
+  }
+  .avis-titre p {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 95%;
+  }
+  .temoignages {
+    width: 95%;
+    padding-left: 10px;
+  }
+  .imgTemoignage p {
+    font-size: 0.8em;
+  }
   .imagefait {
     
     width: 90%;
@@ -1483,7 +1503,20 @@ ul {
     flex-direction: initial;
     flex-wrap: nowrap;
   }
-
+  .btnFait {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .Partez {
+    height: auto;
+  }
+  .imagePartez {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btnFait {
+    margin-top: 30px;
+  }
   .conteneurcarte {
     margin: 0;
     width: 100%;
@@ -1550,6 +1583,30 @@ ul {
     flex-wrap: wrap;
     
   }
+
+  .imageTrouverVelo {
+    margin: 0 6px;
+    width: 95%;
+    
+    gap: 2px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+
+  }
+  .imageTrouverVelo img {
+    height: 200px;
+    width: 200px;
+    
+  }
+  .imageTrouverVelo p {
+    font-size: 0.6em;
+    width: 150px;
+  }
+
+  .titreFait p {
+    text-align: justify;
+    margin: 10px 20px;
+  }
   /* fleche pour remmonter en version mobile */
 
   .flechemobile {
@@ -1586,9 +1643,13 @@ ul {
   .headfoot {
     margin: 50px 0 0 0;
   }
+  .footerr {
+    height: auto;
+  }
 
   .fcontenu {
-    margin-top: 0;
+    margin: 0 ;
+    height: 40vh;
   }
 
   .qsn1 {
@@ -1609,7 +1670,7 @@ ul {
   }
 
   .fboutons {
-    margin: auto;
+    margin: 27%;
     width: auto;
     display: block;
   }
