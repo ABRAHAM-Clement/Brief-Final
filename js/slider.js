@@ -1,8 +1,8 @@
 
 /* strapi carrousels  Début */
- let url = 'http://90.110.218.245:5001'
+ let url = 'http://85.169.220.243:5001'
 
- fetch("http://90.110.218.245:5001/api/carrousel2s?populate=*")
+ fetch("http://85.169.220.243:5001/api/carrousel2s?populate=*")
     .then(function (res) {
         if (res.ok) {
             return res.json();

@@ -480,7 +480,7 @@ body {
   width: 100%;  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 1%;
   padding-left: 15%;
   padding-right: 15%;
@@ -556,6 +556,7 @@ body {
   margin-bottom: 2%;
   margin-left: 15%;
   margin-right: 15%;
+  border: 3px solid black;
 }
 
 TEXTAREA{
@@ -574,7 +575,7 @@ TEXTAREA{
 
 
 #form .texte-formulaire{
-  text-align: center;
+  text-align: start;
 }
 
 #form p{
@@ -582,7 +583,9 @@ TEXTAREA{
   text-align: center;
   font-size: 30px;
 }
-
+#Avis {
+  border: 3px solid ;
+}
 .valider input{
   font-size: 1em;
   background-color: black;
@@ -607,7 +610,7 @@ TEXTAREA{
   backdrop-filter: blur(8px);
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: auto;
   overflow: hidden;
 }
 .qsn1 {
@@ -639,6 +642,7 @@ TEXTAREA{
   width: 100%;
   margin-left: 300px;
   margin-right: 300px;
+  
 }
 .fcontenu p{
   line-height: 28px;
