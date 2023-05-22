@@ -1,7 +1,9 @@
 # Brief-Final
 
 Lien utile :
+Dans le cadre de la formation dev inté à Lens, nous avons du crée un site touristique pour l'euro vélo 5 . Une piste cyclable traversant plusieurs pays comme la France ou encore le luxembourg. Pour cette exercice , il s'agisais de se concentér sur la partie France avec une precision sur la partie Haut-de-France . 
 
+Dans le cardre de ce projet , nous avons travailler à 4 sur ce projet . 
 
 Connection strapi :
 http://90.110.218.245:5001/admin 
