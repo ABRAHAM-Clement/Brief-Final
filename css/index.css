@@ -1458,7 +1458,8 @@ ul {
   }
   .fait {
   height: 150vh;
-  background: #000000;
+  background: url(/images/imagesbg/ilonfait.jpg) no-repeat;
+  background-size: cover;
   margin: 0;
   color: #ffffff;
   margin-top: 25px;
@@ -1471,6 +1472,11 @@ ul {
   }
   .btnFait  {
    margin-top: 50px;
+  }
+  .imgfait img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .avis{
     margin: 5px 0;
@@ -1580,7 +1586,7 @@ ul {
 
   .imageTrouverVelo {
     margin: 0 6px;
-    width: 100%;
+    width: 95%;
     
     gap: 2px;
     display: grid;
@@ -1589,11 +1595,12 @@ ul {
   }
   .imageTrouverVelo img {
     height: 200px;
-    width: 180px;
+    width: 200px;
     
   }
   .imageTrouverVelo p {
     font-size: 0.6em;
+    width: 150px;
   }
 
   .titreFait p {
