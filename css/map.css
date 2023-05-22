@@ -1078,6 +1078,11 @@ div.map-marker:hover {
     width: 100%;
 }
 
+.top-etape-flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .top-etape-flex-row-1 {
     display: flex;
     flex-flow: row nowrap;
@@ -1093,4 +1098,8 @@ div.map-marker:hover {
     flex-flow: row nowrap;
     gap: 4%;
     width: 100%;
+}
+
+.etape-detail-flex-row {
+    display: flex;
 }
