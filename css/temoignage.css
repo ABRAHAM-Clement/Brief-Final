@@ -332,7 +332,7 @@ body {
   width: 100%;  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -752,181 +752,7 @@ a.btnb{
   margin-top: auto;
   margin-bottom: auto;}
 
-/* Version ipad paysage */
-
-@media screen and (max-width:1080px){
-
-  /*Header*/
-  .haut-droite{
-   width: 45%;
- }
- .haut-gauche{
-   width: 55%;
- }
- #label{
-   display: none;
- }
- #Newsletter{
-   display: inline;
- }
-
-   /* fleche pour remmonter en version mobile */
-  
-   .flechemobile{
-    display: block;
-  }
- /* main */
-
-
- /* article */
-  .conteneur-temoignage{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .article-child:nth-child(3){
-    flex: 0 0 66.20%;
-  
-  }
-  
-  .article-child:nth-child(2){
-    flex: 0 0 32.59%;
-  }
-  .article-child:nth-child(2) .image{
-    width: 370px;
-  }
-  .article-child .image{
-    width: 370px;
-    height: 370px;
-    border-radius: 0.9%;
-  }
-  
-  .article-child:nth-child(3) .image{
-       width: 100%;
-       height: 370px;
-  }
-  .conteneur-temoignage .article-child:nth-child(4){
-    flex: 31%;
-  }
-  .conteneur-temoignage .article-child:nth-child(5){
-    flex: 31%;
-  }
-  .conteneur-temoignage .article-child:nth-child(6){
-    flex: 31%;
-  }
-  /* avis */
-  .conteneur-avis{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  /* avis-formulaire */
-  
-  .avis-formulaire{
-    background-color: white;
-    width: 100%;
-    padding-bottom: 3%;
-  }
-
-  #form{
-    width: 40%;
-  }
-  
-
- /* footer */
- .headfoot{
-   margin: 0 2% 0 2%;
-   vertical-align: middle;
- }
- .qsn1{
-   margin: 0;
- }
- .logog{
-   margin-top: 1%;
- }
- .logod{
-   margin-top: 1px;
- }
- .fcontenu{
-   width: 100vw;
-   margin: 0;
-   flex-wrap: wrap;
- }
- .quisommesnous h3{
-   margin: 0 3% 0 3%;
- }
- .quisommesnous p{
-   margin: 0 3% 0 3%;
-   width: 100vw;
- }
- .fboutons{
-   width: 100vw;
-   justify-content: space-around;
-   margin: 0;
- }
- .fboutons a{
-   margin: auto;
- }
- footer{
-   width: 100vw;
- }
- .footh{
-   width: 100vw;
- }
- .footm1{
-   margin: 0;
-   width: 100vw;
-   justify-content: space-between;
- }
- .presentation li{
-   margin: 0 10% 0 3%;
- }
- .suggestions{
-   margin-left: 15%;
- }
- .conseils{
-   margin-left: 15%;
- }
- .footm2{
-   flex-wrap: wrap;
-   justify-content: space-between;
- }
- .veloacc{
-   margin: 1% 1% 1% 1.5%;
- }
- .velotext h4{
-   margin: 0;
- }
- .velotext{
-   padding: 0;
-   margin: 2.5% 1% 0 0;
-   width: 89vw;
- }
- .boutons{ 
-   margin: auto;
- }
- .btn2 p{
-   margin: 0;
- }
- .btn1 {
-   margin: 0 10% 0 0;
- }
- .btn2{
-   margin: 0 0 0 0;
- }
- .footb .ml li{
-  margin: 0;
-}
- .realisation{
-    margin: 2.2% 1% 0 25%;
- }
- .footb ul{
-   margin: 5% 0 0 0;
-   padding: 0;
- }
- 
- }
-
-  /*Responsive*/
+/* Responsive iPhone 12Pro  */
 
 @media screen and (max-width:480px){
 
@@ -1128,7 +954,11 @@ a.btnb{
     margin-right: 5px;
 }
   
-  
+  #conteneur-temoignage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
   .conteneurcarte{
     margin: 0;
     width: 100%;
@@ -1149,6 +979,16 @@ a.btnb{
     width: 100%;
     margin: auto;
     text-align: justify;
+  }
+  #conteneur-temoignage {
+    height: auto;
+    gap: 1%;
+  }
+  .temoignage h1 {
+    font-size: 0.7em;
+  }
+  .temoignage img {
+    height: 300px;
   }
 
   /*avis */
