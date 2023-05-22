@@ -358,16 +358,16 @@ function afficheEtape(etape) {
                 <a href="#" onclick="retourneListeEtape()"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a>
                 <div class="top-etape-flex-column">
                     <span class="etape-desc-trajet">${villeDepart} &gt; ${villeArrive}</span>
-                    <span class="etape-desc-veloeuro">Le Véloeuro</span>
+                    <span class="etape-desc-veloeuro">Le Vélo'opale</span>
                 </div>
             </div>
         </div>
         <div class="top-etape-flex-row-3">
             <div class="lien-container lien-container-selected">
-                <a href="#" class="onglet-menu onglet-menu-selected"><span class="onglet-menu-desc">description</span></a>
+                <a href="#" class="onglet-menu onglet-menu-selected"><i class="fa-solid fa-align-left"></i>&nbsp &nbsp<span class="onglet-menu-desc">description</span></a>
             </div>
             <div class="lien-container">
-                <a href="#" class="onglet-menu"><span class="onglet-menu-avis">avis et témoignages</span></a>
+                <a href="#" class="onglet-menu"><i class="fa-regular fa-comments"></i>&nbsp &nbsp<span class="onglet-menu-avis">avis et témoignages</span></a>
             </div>
         </div>
     </div>
