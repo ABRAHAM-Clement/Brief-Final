@@ -381,13 +381,13 @@ function afficheEtape(etape) {
             </div>
             <div class="etape-detail-flex-row">
                 <span class="etape-distance">
-                    ${distance} Km&nbsp;&nbsp;
+                    ${distance} Km&nbsp;&nbsp;&nbsp&nbsp
                     <i class="fa-solid fa-arrows-left-right"></i>
                 </span>
                 <span class="material-symbols-outlined"></span>
                 <span class="etape-temps">
                  &nbsp;0 h 00 min&nbsp;
-                 <i class="ri-timer-line"></i></span>
+                 <i class="ri-timer-line"></i></span>&nbsp&nbsp
                  ${difficulte}
             </div>
             <div class="etape-detail-image">

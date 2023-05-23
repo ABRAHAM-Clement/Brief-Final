@@ -1206,7 +1206,8 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-top h2 {
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
 }
 
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row span.etape-distance {
@@ -1224,7 +1225,7 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row s
 }
 
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row div.difficulte {
-    text-align: center;
+    text-align: start   ;
     width: 30%;
 }
 
