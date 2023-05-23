@@ -400,7 +400,11 @@ form {
 #Newsletter{
     display: none;
 }
-
+.ri-arrow-up-down-line {
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
 /* Fin header */
 
 /*Responsive*/
@@ -915,7 +919,7 @@ div#partie-haute-container div.planifier-itineraire div.formulaire-itineraire sp
 div#partie-haute-container div.planifier-itineraire div.formulaire-itineraire button {
     font-family: 'Poppins';
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     background-color: #586eb8;
     color: white;
     height: 2.4rem;
@@ -1208,6 +1212,12 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row {
     flex-flow: row nowrap;
     justify-content: center;
     gap: 10px;
+    background-color: #f4f4f4;
+    height: 4vh;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row span.etape-distance {
@@ -1215,6 +1225,8 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row s
     font-size: 1rem;
     font-weight: 500;
     color: black;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row span.etape-temps {
@@ -1222,6 +1234,8 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row s
     font-size: 1rem;
     font-weight: 500;
     color: black;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row div.difficulte {
@@ -1497,5 +1511,10 @@ div#container-liste-etape div.etape-detail-container {
         text-decoration: none;
         border-radius: 10px;
     }
-  
+    div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row {
+        font-size: 0.8em;
+    }
+    .ri-arrow-up-down-line {
+        margin: 0;
+    }
 }
