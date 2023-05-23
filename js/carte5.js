@@ -412,8 +412,7 @@ function afficheEtape(etape) {
                         <div><a href="#" onclick="afficheEtape(${etapePrecedente})"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a></div>
                         <div class="etape-detail-bottom-bouton-precedent">
                             <a href="#" onclick="afficheEtape(${etapePrecedente})">
-                                <span>ETAPE PRECEDENTE</span><br>
-                                depuis ${villePrecedente}
+                                <span>ETAPE PRECEDENTE</span>
                             </a>
                         </div>
                     </div>
@@ -423,8 +422,7 @@ function afficheEtape(etape) {
                     <div class="container-bouton-suivant" id="bouton-etape-suivante">
                         <div class="etape-detail-bottom-bouton-suivant">
                             <a href="#" onclick="afficheEtape(${etapeSuivante})">
-                                <span>ETAPE SUIVANTE</span><br>
-                                vers ${villeSuivante}
+                                <span>ETAPE SUIVANTE</span>
                             </a>
                         </div>
                         <div><a href="#" onclick="afficheEtape(${etapeSuivante})"><i id="iconFleche" class="fa-solid fa-arrow-right" style="color: #000000;"></i></a></div>
