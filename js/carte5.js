@@ -441,7 +441,7 @@ function afficheEtape(etape) {
     divBoutonSuivant=document.getElementById('bouton-etape-suivante');
 
     /* On affiche le bouton reponsive si nécessaire */
-    if (responsive) buttonResponsiveToMap.style.display='block';
+    // if (responsive) buttonResponsiveToMap.style.display='block';
 
     // On affiche ou pas les boutons précédent et suivant
     divBoutonPrecedent.style.visibility=(boutonPrecedent==false)?'hidden':'visible';

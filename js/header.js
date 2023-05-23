@@ -1,12 +1,19 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
+  let lien = document.getElementById("lien");
   if (document.documentElement.scrollTop != 0) {
     document.getElementById("header").className = "cache";
-    document.getElementById("lien").className = "cache";
+    if (lien != null){
+      lien.className = "cache";
+    }
+    
   } else {
     document.getElementById("header").className = "";
-    document.getElementById("lien").className = "";
+    if (lien != null){
+       lien.className = "";
+    }
+   
   }
 }
 
