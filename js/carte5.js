@@ -355,7 +355,7 @@ function afficheEtape(etape) {
     <div class="top-etape-flex-column">
         <div class="top-etape-flex-row-1">
             <div class="top-etape-flex-row-2">
-                <a href="#" onclick="retourneListeEtape()"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a>
+                <a href="#" onclick="retourneListeEtape()"><i class="ri-arrow-go-back-line"></i></a>
                 <div class="top-etape-flex-column">
                     <span class="etape-desc-trajet">${villeDepart} ➜ ${villeArrive}</span>
                     <span class="etape-desc-veloeuro">Le Vélo'opale</span>

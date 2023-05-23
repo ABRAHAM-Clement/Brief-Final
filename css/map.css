@@ -1347,7 +1347,13 @@ div#container-liste-etape div.etape-detail-container {
 
 .fa-solid.fa-arrow-left::before {
     font-size: 1.5em;
-    color: #000000; 
+    color: #fff; 
+}
+
+.ri-arrow-go-back-line {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 1rem;
 }
 /* Partie Responsive */
 @media screen and (max-width: 400px) {
