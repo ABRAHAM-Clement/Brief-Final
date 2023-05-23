@@ -1401,7 +1401,7 @@ div#container-liste-etape div.etape-detail-container {
     /* Le container en bas de la description d'une étape avec les liens */
 
     div#partie-haute-container div.top-etape-flex-row-1 {
-        margin-top: 5vh;
+        margin-top: 0;
     }
 
     div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed {
@@ -1416,33 +1416,42 @@ div#container-liste-etape div.etape-detail-container {
         position: fixed;
         left: 0;
         bottom: 0;
-        z-index: 1001;
+        z-index: 10021;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
         text-align: center;
         width:100%;
-        height: 6vh;
+        height: 5vh;
         background-color: white;
+        padding: 0;
     }
 
     /* Le container contenant les boutons précédent et suivant */
     div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed div.etape-detail-bottom-button {
         position: fixed;
         left: 0;
-        top: 0;
-        z-index: 1002;
+        bottom: 2.5em;
+        z-index: 102202;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+    }
+
+    div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed div.etape-detail-bottom-bouton-suivant {
+    display: none;
+    
+    }
+    div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed div.etape-detail-bottom-bouton-precedent {
+        display: none;
     }
 
     div#container-liste-etape div.etape-detail-container div.etape-bottom-block-fixed div.etape-detail-bottom-link a {
         text-align: center;
-        width: 33.3%;
-        font-size: 0.8rem;
+        width: 100%;
+        font-size: 0.7rem;
         font-weight: 400;
         color: #07756d;
     }
@@ -1487,4 +1496,5 @@ div#container-liste-etape div.etape-detail-container {
         text-decoration: none;
         border-radius: 10px;
     }
+  
 }
