@@ -618,7 +618,7 @@ form {
   background-size: cover;
   /* background-color: #007c74; */
   width: 100%;
-  height: 93vh;
+  /* height: 93vh; */
   
 }
 .titreFait{   
@@ -643,7 +643,7 @@ form {
   flex-wrap: nowrap;
   width: 95%;
   gap: 2%;
-  margin:auto;
+  margin:0 auto;
   justify-content:center ;
 }
 
@@ -678,6 +678,7 @@ form {
   font-size: 26px;
   font-weight: bolder;  
   width: 100%;
+  margin: 0;
 
 }
 
@@ -1457,7 +1458,7 @@ ul {
     margin-right: 5px;
   }
   .fait {
-  height: 150vh;
+  /* height: auto; */
   background: url(/images/imagesbg/ilonfait.jpg) no-repeat;
   background-size: cover;
   margin: 0;
@@ -1504,8 +1505,8 @@ ul {
     flex-wrap: nowrap;
   }
   .btnFait {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
   }
   .Partez {
     height: auto;
@@ -1514,9 +1515,9 @@ ul {
     display: flex;
     flex-wrap: wrap;
   }
-  .btnFait {
-    margin-top: 30px;
-  }
+  /* .btnFait {
+    margin-top: 60px;
+  } */
   .conteneurcarte {
     margin: 0;
     width: 100%;

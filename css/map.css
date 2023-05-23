@@ -400,7 +400,11 @@ form {
 #Newsletter{
     display: none;
 }
-
+.ri-arrow-up-down-line {
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
 /* Fin header */
 
 /*Responsive*/
@@ -1510,5 +1514,7 @@ div#container-liste-etape div.etape-detail-container {
     div#container-liste-etape div.etape-detail-container div.etape-detail-flex-row {
         font-size: 0.8em;
     }
-  
+    .ri-arrow-up-down-line {
+        margin: 0;
+    }
 }
