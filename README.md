@@ -6,7 +6,7 @@ Dans le cadre de la formation dev inté à Lens, nous avons du crée un site tou
 Dans le cardre de ce projet , nous avons travailler à 4 sur ce projet . 
 
 Connection strapi :
-http://90.110.218.245:5001/admin 
+http://85.169.220.243:5001/admin 
 admin-5001@simplon.co // Bk87G9dabHecFh42
 
 Charte graphique :

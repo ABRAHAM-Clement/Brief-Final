@@ -266,7 +266,7 @@ function populateListeEtape(etape,i) {
             <div class="etape-content-container">
                 <h2>${titre}</h2>
                 ${difficulte}
-                <span class="etape-dep-arr">${villeDepart} &gt; ${villeArrive}</span>
+                <span class="etape-dep-arr">${villeDepart} ➜ ${villeArrive}</span>
                 <p>${texte}</p>
             </div>
         </div>`;
@@ -357,7 +357,7 @@ function afficheEtape(etape) {
             <div class="top-etape-flex-row-2">
                 <a href="#" onclick="retourneListeEtape()"><i class="fa-solid fa-arrow-left" style="color: #000000;"></i></a>
                 <div class="top-etape-flex-column">
-                    <span class="etape-desc-trajet">${villeDepart} &gt; ${villeArrive}</span>
+                    <span class="etape-desc-trajet">${villeDepart} ➜ ${villeArrive}</span>
                     <span class="etape-desc-veloeuro">Le Vélo'opale</span>
                 </div>
             </div>
@@ -382,8 +382,9 @@ function afficheEtape(etape) {
             <div class="etape-detail-flex-row">
                 <span class="etape-distance">
                     ${distance} Km&nbsp;&nbsp;
+                    <i class="fa-solid fa-arrows-left-right"></i>
                 </span>
-                <span class="material-symbols-outlined"><i class="fa-solid fa-arrows-left-right"></i></span>
+                <span class="material-symbols-outlined"></span>
                 <span class="etape-temps">
                  &nbsp;0 h 00 min&nbsp;
                  <i class="ri-timer-line"></i></span>
@@ -394,7 +395,7 @@ function afficheEtape(etape) {
             </div>
             <div class="etape-detail-dep-arr-flex">
                 <div class="etape-detail-ville-depart"><i class="fa-regular fa-circle circle1"></i><span>&nbsp;${villeDepart}</span></div>
-                <div><span class="material-symbols-outlined">swap_horiz</span></div>
+                <div><span class="material-symbols-outlined"><i class="ri-arrow-left-right-fill"></i></span></div>
                 <div class="etape-detail-ville-arrive"><i class="fa-regular fa-circle circle2"></i><span>&nbsp;${villeArrive}</span></div>
             </div>
             <div class="etape-detail-description">
