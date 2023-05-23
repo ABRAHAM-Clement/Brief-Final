@@ -919,7 +919,7 @@ div#partie-haute-container div.planifier-itineraire div.formulaire-itineraire sp
 div#partie-haute-container div.planifier-itineraire div.formulaire-itineraire button {
     font-family: 'Poppins';
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     background-color: #586eb8;
     color: white;
     height: 2.4rem;
