@@ -11,6 +11,10 @@ admin-5001@simplon.co // Bk87G9dabHecFh42
 
 Charte graphique :
 https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/cd0e239f-fcd9-418b-9ec5-06dd8a8016f0.pdf
+ // Bk87G9dabHecFh42
+
+Charte graphique :
+https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/cd0e239f-fcd9-418b-9ec5-06dd8a8016f0.pdf
 
 Librairie JS pour afficher une carte :
 https://leafletjs.com/

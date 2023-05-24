@@ -1256,6 +1256,56 @@ div#container-liste-etape div.etape-detail-container div.etape-detail-image img 
     margin: 0;
 }
 
+div.etape-content-container div.difficulte {
+    display: inline;
+    margin-top: 2vh;
+}
+
+span.difficulte-1 {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    color: #52BE80;
+    padding-left: 2%;
+}
+
+b.difficulte-1-circle {
+    display: inline-block;
+    background-color: #52BE80;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+span.difficulte-2 {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    color: #3498DB;
+    padding-left: 2%;
+}
+
+b.difficulte-2-circle {
+    display: inline-block;
+    background-color: #3498DB;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+span.difficulte-3 {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    color: #E74C3C;
+    padding-left: 2%;
+}
+
+b.difficulte-3-circle {
+    display: inline-block;
+    background-color: #E74C3C;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
 div#container-liste-etape div.etape-detail-container div.etape-detail-dep-arr-flex {
     display: flex;
     flex-flow: row nowrap;
