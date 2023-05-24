@@ -275,7 +275,7 @@ function getDifficulteHTML(difficulte) {
     switch(difficulte) {
         case 1:
             return `<div class="difficulte">
-                        <span class="difficulte-1">Je débute / En famille&nbsp</span><b class="difficulte-1-circle"></b>
+                        <span class="difficulte-1">Je débute&nbsp</span><b class="difficulte-1-circle"></b>
                     </div>`;
             break;
         case 2:

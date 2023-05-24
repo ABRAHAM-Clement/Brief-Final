@@ -1430,7 +1430,15 @@ div#container-liste-etape div.etape-detail-container {
         width: 100vw;
         height: 100vh;
     }
-
+    span.difficulte-1 {
+        font-size: 1em;
+    }
+    span.difficulte-2 {
+        font-size: 0.8em;
+    }
+    span.difficulte-3 {
+        font-size: 0.8em;
+    }
     div#left-side-container {
         /* display: none; */
         width: 100vw;
