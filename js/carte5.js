@@ -253,6 +253,7 @@ function populateListeEtape(etape,i) {
     let villeArrive=etape.attributes.ville_arrive;
     let texte=etape.attributes.texte;
     let difficulte=etape.attributes.difficulte;
+    let timing=etape.attributes.timing;
     difficulte=getDifficulteHTML(difficulte);
 
     texte=texte.substring(0,200)+' [...]';
@@ -320,6 +321,7 @@ function afficheEtape(etape) {
     image=flag?etapes[etape].attributes.image.data.attributes.url:etape.attributes.image.data.attributes.url;
     fichierGpx=flag?etapes[etape].attributes.gpx.data[0].attributes.url:etape.attributes.gpx.data[0].attributes.url;
     distance=flag?etapes[etape].attributes.distance:etape.attributes.distance;
+    timing=flag?etapes[etape].attributes.timing:etape.attributes.timing;
     difficulte=flag?etapes[etape].attributes.difficulte:etape.attributes.difficulte;
     index=flag?etapes[etape].index:etape.index;
     numeroEtape=index+1;
@@ -386,7 +388,7 @@ function afficheEtape(etape) {
                 </span>
                 <span class="material-symbols-outlined"></span>
                 <span class="etape-temps">
-                 &nbsp;0 h 00 min&nbsp;
+                 &nbsp;${timing}&nbsp;
                  <i class="ri-timer-line"></i></span>&nbsp&nbsp
                  ${difficulte}
             </div>
